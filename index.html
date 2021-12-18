@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="weatherapp.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="site.css" rel="stylesheet">
+</head>
+<body>
+
+<main class="main-container">
+
+  <div class="location-and-date">
+    <h1 class="location-and-date__location">Lucknow, India</h1>
+    <div>Sunday 5th December</div>
+  </div>
+
+
+  <div class="current-temperature">
+    <div class="current-temperature__icon-container">
+      <img src="https://github.com/JonUK/responsive-web-weather-app/blob/master/icons/mostly-sunny.svg" class="current-temperature__icon" alt="">
+    </div>
+    <div class="current-temperature__content-container">
+      <div class="current-temperature__value">21&deg;</div>
+      <div class="current-temperature__summary">Mostly Sunny</div>
+    </div>
+  </div>
+
+
+  <div class="current-stats">
+    <div>
+      <div class="current-stats__value">23&deg;</div>
+      <div class="current-stats__label">High</div>
+      <div class="current-stats__value">14&deg;</div>
+      <div class="current-stats__label">Low</div>
+    </div>
+    <div>
+      <div class="current-stats__value">7mph</div>
+      <div class="current-stats__label">Wind</div>
+      <div class="current-stats__value">0%</div>
+      <div class="current-stats__label">Rain</div>
+    </div>
+    <div>
+      <div class="current-stats__value">06:27 a.m</div>
+      <div class="current-stats__label">Sunrise</div>
+      <div class="current-stats__value">5:07 p.m</div>
+      <div class="current-stats__label">Sunset</div>
+    </div>
+  </div>
+
+  <div class="weather-by-hour">
+    <h2 class="weather-by-hour__heading">Today's weather</h2>
+    <div class="weather-by-hour__container">
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">3am</div>
+        <div>14&deg;</div>
+        <div>Foggy</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">6am</div>
+        <div>16&deg;</div>
+        <div>Foggy</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">9am</div>
+        <div>17&deg;</div>
+        <div>Slightly sunny</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">12pm</div>
+        <div>19&deg;</div>
+        <div>Mostly sunny</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">3pm</div>
+        <div>21&deg;</div>
+        <div>Sunny</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">6pm</div>
+        <div>20&deg;</div>
+        <div>Clear</div>
+      </div>
+      <div class="weather-by-hour__item">
+        <div class="weather-by-hour__hour">9pm</div>
+        <div>18&deg;</div>
+        <div>Clear</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="next-5-days">
+    <h2 class="next-5-days__heading">Next 5 days</h2>
+    <div class="next-5-days__container">
+
+      <div class="next-5-days__row">
+
+        <div class="next-5-days__date">
+          Mon
+          <div class="next-5-days__label">6/12</div>
+        </div>
+
+        <div class="next-5-days__low">
+          10&deg;
+          <div class="next-5-days__label">Low</div>
+        </div>
+
+        <div class="next-5-days__high">
+          21&deg;
+          <div class="next-5-days__label">High</div>
+        </div>
+
+        <div class="next-5-days__icon">
+          <img src="images.png" width="100" height="110" alt="Sunny">
+          <div>Sunny</div>
+        </div>
+
+        <div class="next-5-days__rain">
+          0%
+          <div class="next-5-days__label">Rain</div>
+        </div>
+
+        <div class="next-5-days__wind">
+          12mph
+          <div class="next-5-days__label">Wind</div>
+        </div>
+
+      </div>
+      <div class="next-5-days__row">
+
+        <div class="next-5-days__date">
+          Tue
+          <div class="next-5-days__label">07/12</div>
+        </div>
+
+        <div class="next-5-days__low">
+          9&deg;
+          <div class="next-5-days__label">Low</div>
+        </div>
+
+        <div class="next-5-days__high">
+          18&deg;
+          <div class="next-5-days__label">High</div>
+        </div>
+
+        <div class="next-5-days__icon">
+          <img src="mostly-sunny-weather-icon-isolated-white-background-vector-illustration-92874244.jpg" width="100" height="110" alt="Mostly sunny">
+        <div>Mostly Sunny</div>
+        </div>
+
+        <div class="next-5-days__rain">
+          3%
+          <div class="next-5-days__label">Rain</div>
+        </div>
+
+        <div class="next-5-days__wind">
+          7mph
+          <div class="next-5-days__label">Wind</div>
+        </div>
+
+      </div>
+      <div class="next-5-days__row">
+
+        <div class="next-5-days__date">
+          Wed
+          <div class="next-5-days__label">8/12</div>
+        </div>
+
+        <div class="next-5-days__low">
+          7&deg;
+          <div class="next-5-days__label">Low</div>
+        </div>
+
+        <div class="next-5-days__high">
+          15&deg;
+          <div class="next-5-days__label">High</div>
+        </div>
+
+        <div class="next-5-days__icon">
+          <img src="mostly-sunny-weather-icon-isolated-white-background-vector-illustration-92874244.jpg"  width="100" height="110" alt="Mostly sunny">
+          <div>Mostly Sunny</div>
+        </div>
+
+        <div class="next-5-days__rain">
+          75%
+          <div class="next-5-days__label">Rain</div>
+        </div>
+
+        <div class="next-5-days__wind">
+          11mph
+          <div class="next-5-days__label">Wind</div>
+        </div>
+
+      </div>
+      <div class="next-5-days__row">
+
+        <div class="next-5-days__date">
+          Thu
+          <div class="next-5-days__label">09/12</div>
+        </div>
+
+        <div class="next-5-days__low">
+          12&deg;
+          <div class="next-5-days__label">Low</div>
+        </div>
+
+        <div class="next-5-days__high">
+          24&deg;
+          <div class="next-5-days__label">High</div>
+        </div>
+
+        <div class="next-5-days__icon">
+          <img src="images.png"  width="100" height="110" alt="Sunny">
+          <div>Sunny</div>
+        </div>
+
+        <div class="next-5-days__rain">
+          2%
+          <div class="next-5-days__label">Rain</div>
+        </div>
+
+        <div class="next-5-days__wind">
+          8mph
+          <div class="next-5-days__label">Wind</div>
+        </div>
+
+      </div>
+      <div class="next-5-days__row">
+
+        <div class="next-5-days__date">
+          Fri
+          <div class="next-5-days__label">10/12</div>
+        </div>
+
+        <div class="next-5-days__low">
+          10&deg;
+          <div class="next-5-days__label">Low</div>
+        </div>
+
+        <div class="next-5-days__high">
+          21&deg;
+          <div class="next-5-days__label">High</div>
+        </div>
+
+        <div class="next-5-days__icon">
+          <img src="mostly-sunny-weather-icon-isolated-white-background-vector-illustration-92874244.jpg"  width="100" height="110" alt="Mostly sunny">
+          <div>Mostly Sunny</div>
+        </div>
+
+        <div class="next-5-days__rain">
+          0%
+          <div class="next-5-days__label">Rain</div>
+        </div>
+
+        <div class="next-5-days__wind">
+          12mph
+          <div class="next-5-days__label">Wind</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+</body>
+</html>
